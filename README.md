@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 🍿 usePopcorn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A movie search and rating application built with **React**.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+https://use-popcorn-u94p.vercel.app/
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* 🔎 Search for movies using the OMDb API
+* 🎬 View detailed movie information
+* ⭐ Rate movies
+* 🍿 Add movies to your watched list
+* 🗑️ Delete movies from the watched list
+* 💾 Save watched movies using `localStorage`
+* ⌨️ Close the selected movie using the `Escape` key
+* 📊 Calculate watched movies statistics and average ratings
+* ⏳ Loading and error states
+* 📱 Responsive user interface
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies
 
-### `npm test`
+* React
+* JavaScript
+* CSS
+* OMDb API
+* React Hooks
+* Custom Hooks
+* Local Storage
+* Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧩 React Concepts
 
-### `npm run build`
+This project helped me practice:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* `useState`
+* `useEffect`
+* `useRef`
+* Custom Hooks
+* Props
+* Conditional Rendering
+* Component Composition
+* Event Handling
+* `AbortController`
+* Data Fetching
+* Local Storage
+* Effect Cleanup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```text
+src/
+├── App.js
+├── StarRating.js
+├── useMovie.js
+├── useKey.js
+├── useLocalStorageState.js
+└── components/
+    ├── Loader.js
+    ├── ErrorMessage.js
+    ├── MovieList.js
+    ├── Header.js
+    ├── Main.js
+    ├── SelectedMovie.js
+    └── WatchedMovies.js
+```
 
-### `npm run eject`
+## 🎯 About the Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project was built as part of my React learning journey.
+It focuses on building reusable components, custom hooks, fetching API data, managing application state, and persisting data with local storage.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 👩‍💻 Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Hadeer Mahmoud**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: https://github.com/hadeer20
